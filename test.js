@@ -12,3 +12,4 @@ const films = require('./films.json')
 films.comedy.forEach(element => {
     console.log(element.name)
 })
+

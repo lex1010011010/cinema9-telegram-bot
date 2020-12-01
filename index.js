@@ -47,6 +47,16 @@ bot.onText(/\/start/, msg => {
         })
 })
 
+bot.onText(/\help/, msg => {
+    const { id } = msg.chat
+    bot.sendMessage(id, 'Здесь будет описание возможностей бота и его функционала')
+})
+
+bot.onText(/\about/, msg => {
+    const { id } = msg.chat
+    bot.sendMessage(id, 'Кинотеатр Синема9 город Хабаровск телефона нет, билеты не бронируем и ваще мы злые немножко')
+})
+
 bot.onText(/хочу смеяться/, msg => {
     const { id } = msg.chat
     bot.sendMessage(id, 'Хочешь много смеяться? Тогда тебе нужно посмотреть комедию. Сейчас в прокате:')

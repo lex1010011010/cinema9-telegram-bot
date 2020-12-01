@@ -1,0 +1,21 @@
+{
+    "comedy": [
+        {
+            "name": "Непосредственно Каха",
+            "description": "Этот очень смешной но Русский",
+            "link": "https://cinema9.ru/film/14582/"
+        },
+        {
+            "name": "Искусственный интеллект",
+            "description": "Этот смешной и с Мелиссой Маккартни",
+            "link": "https://cinema9.ru/film/11395/"
+        }
+    ],
+    "drama": [
+        {
+            "name": "Достучаться до небес",
+            "description": "Этот грустный",
+            "link": "https://cinema9.ru/film/14582/"
+        }
+    ]
+}

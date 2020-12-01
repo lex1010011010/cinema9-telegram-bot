@@ -1,0 +1,14 @@
+{
+  "name": "cinema9-bot",
+  "version": "1.0.0",
+  "description": "Bot for cinema Cinema9 Khbarovsk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "lex1010011010",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
